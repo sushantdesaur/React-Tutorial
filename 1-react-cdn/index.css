@@ -1,0 +1,10 @@
+#root ul {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    list-style-type: none;
+}
+
+#root li {
+    margin-left: 10px;
+}
