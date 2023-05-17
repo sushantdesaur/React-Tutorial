@@ -1,15 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-
-function Header() {
-  return <>
-    <h1>Hello World</h1>;
-  </>
-}
+import Header from './components/Header.js';
 
 
 function App() {
-  return <Header />;
+  return <Header name="Anna" color="purple" />;
 }
 
 export default App;
